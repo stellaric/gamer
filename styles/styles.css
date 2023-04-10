@@ -10,66 +10,27 @@ body{
     padding:0;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-nav h1 {
-    color:white;
-    font-family: 'Inter',sans-serif;
-}
-
-
-
-nav li a{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 30px;
-line-height: 36px;
-
-color: #FFFFFF;
-}
-.titre {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: 'Inter', sans-serif;
-}
-
-.titre h1{
-/* LA REFERENCE DES GAMER’Z */
-position: absolute;
-width: 866px;
-height: 73px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 73px;
-/* identical to box height */
-color: #FFFFFF;
-
-}
-
-.onglets ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-}
-
-.onglets a{
-    text-decoration: none;
- 
-}
+/*header*/
 .header{
+    background:url(../images/img-header.jpeg);
+    background-position: center;
     position: absolute;
     width: 1920px;
     height: 650px;
-    background:url(../images/img-header.jpeg);
-    
-
 }
+
+/*nav*/
+
+/*main history*/
+.main_history{
+    background-color: red;
+    width:1920px;
+    height:1090px;
+}
+/*main events*/
+.main_history{
+    background-color: blue;
+    width:1920px;
+    height:1500px;
+}
+/*main article*/
