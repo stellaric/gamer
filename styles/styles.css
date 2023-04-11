@@ -14,23 +14,78 @@ body{
 .header{
     background:url(../images/img-header.jpeg);
     background-position: center;
-    position: absolute;
-    width: 1920px;
+   /* position: absolute;
+    width: 1920px;*/
     height: 650px;
 }
 
 /*nav*/
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
 
+.logo {
+    color: white;
+    width: 175px;
+    height: 54px;
+    font-family: 'Inter',sans-serif;   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    padding-left: 7%;
+}
+
+.title_logo{
+    font-weight: 700;
+}
+
+.onglets ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.onglets a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter',sans-serif;
+    margin-right: 10px;
+    padding-right: 38px;
+    font-size: 26px;
+
+}
+
+.onglets a:hover{
+    text-decoration: underline;
+
+}
+.titre{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+
+.titre h1 {
+width: 866px;
+height: 73px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 73px;
+/* identical to box height */
+color: #FFFFFF;
+padding-top: 223px;
+padding-left: 80px;
+}
 /*main history*/
-.main_history{
-    background-color: red;
-    width:1920px;
-    height:1090px;
-}
+
 /*main events*/
-.main_history{
-    background-color: blue;
-    width:1920px;
-    height:1500px;
-}
+
 /*main article*/
